@@ -9,9 +9,17 @@
   align-items: center;
 }
 
-.introducao img {
+.introducao-logo {
   max-width: 100%;
   width: 400px;
+}
+
+.introducao .lugar {
+  display: block;
+  width: 30px;
+  position: relative;
+  left: 102px;
+  top: 22px;
 }
 
 .introducao h1 {
@@ -63,7 +71,7 @@
   .introducao {
     grid-template-columns: 1fr;
   }
-  .introducao img {
+  .introducao-logo {
     display: none;
   }
 }

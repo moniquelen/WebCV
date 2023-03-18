@@ -38,10 +38,21 @@
 .faculdade {
   display: flex;
   flex-direction: column;
+  left: 210px;
   gap: 10px 20px;
   padding: 20px;
   background: #000000;
   border-radius: 4px;
+  position: relative;
+}
+
+.faculdade-periodo {
+  position: absolute;
+  top: 60px;
+  left: -50px;
+  color: #a3a3a3;
+  font-size: 0.875rem;
+  text-align: right;
 }
 
 .faculdade-tipo {
