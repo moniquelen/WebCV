@@ -124,6 +124,12 @@
   color: #a3a3a3;
 }
 
+@media (max-width: 1200px) {
+  .faculdade {
+    left: 50px;
+  }
+}
+
 @media (max-width: 800px) {
   .formacao-container {
     grid-template-columns: 1fr;
@@ -144,5 +150,20 @@
 
   .formacao-extra h3 {
     left: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .faculdade {
+    left: 10px;
+  }
+  .faculdade-periodo {
+    color: #ffffff;
+    width: 4.2ch;
+    background: linear-gradient(#9752a5, #f804cf);
+    border-radius: 4px;
+    padding: 5px 10px;
+    top: 90%;
+    left: 70%;
   }
 }

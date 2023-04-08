@@ -2,7 +2,7 @@
   max-width: 1200px;
   padding: 20px 20px;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,11 +31,17 @@
   border-radius: 4px;
 }
 
+@media (max-width: 1000px) {
+  .header {
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 800px) {
   .header {
     flex-direction: column;
     gap: 40px;
-    padding: 20px;
+    padding: 10px;
   }
 
   .header a {
@@ -45,9 +51,6 @@
 }
 
 @media (max-width: 500px) {
-  .logo-nome h1 {
-    font-size: 1rem;
-  }
   .header-menu a {
     width: 80px;
     font-size: 1rem;
