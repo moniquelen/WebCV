@@ -63,6 +63,7 @@
 
 @media (max-width: 800px) {
     .introducao {
+        padding: 140px 20px 60px 20px;
         grid-template-columns: 1fr 1fr;
         gap: 40px;
     }
@@ -90,5 +91,11 @@
     }
     .header-menu a {
         background: #ffffff;
+    }
+}
+@media (max-width: 360px) {
+    .introducao {
+        padding-top: 120px;
+        padding-bottom: 40px;
     }
 }

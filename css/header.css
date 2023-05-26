@@ -50,13 +50,17 @@
 @media (max-width: 800px) {
     .header {
         flex-direction: column;
-        gap: 40px;
-        padding: 10px;
+        gap: 10px;
+        padding: 10px 0px 25px 0px;
     }
 
     .header a {
         background: #f5f5f5;
         border-radius: 4px;
+    }
+    .logo-header {
+        width: 30px;
+        margin-left: 0px;
     }
 }
 
@@ -64,5 +68,13 @@
     .header-menu a {
         width: 80px;
         font-size: 1rem;
+    }
+}
+@media (max-width: 360px) {
+    .header {
+        height: 10px;
+    }
+    .header li {
+        display: none;
     }
 }
